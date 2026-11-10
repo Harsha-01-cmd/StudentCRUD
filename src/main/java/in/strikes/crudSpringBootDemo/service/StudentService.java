@@ -2,7 +2,6 @@ package in.strikes.crudSpringBootDemo.service;
 
 import in.strikes.crudSpringBootDemo.entity.Student;
 import in.strikes.crudSpringBootDemo.repository.StudentRepository;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
