@@ -19,13 +19,13 @@ public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long id; // Auto-generated — don't send this
     private String name;
     private int age;
     private String email;
     private int rollNo;
     private String subject;
-    private Boolean deleted;
+    private Boolean deleted; // Set by the service — don't send this
 
     public Long getId() {
         return id;
